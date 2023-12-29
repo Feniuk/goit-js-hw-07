@@ -32,3 +32,10 @@ body {
   width: 360px;
   height: auto;
 }
+
+.input-css{
+  height: 32px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
