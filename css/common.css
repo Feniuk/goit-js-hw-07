@@ -16,3 +16,19 @@ body {
 .one-list{
   padding: 24px;
 }
+
+.gallery{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.js-li-t2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.js-img{
+  width: 360px;
+  height: auto;
+}

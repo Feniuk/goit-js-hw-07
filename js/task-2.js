@@ -27,3 +27,19 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+const galleryContainer = document.querySelector('.gallery');
+
+function imgTemplate(image){
+  return `<li class="js-li-t2">
+  <img class="js-img" src="${image.url}" 
+  alt="${image.alt}">
+  </li> `;
+}
+
+function renderImages(){
+  const markup = images.map(imgTemplate).join('');
+  galleryContainer.insertAdjacentHTML('beforeend', markup);
+}
+
+renderImages();
