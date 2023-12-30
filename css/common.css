@@ -60,6 +60,7 @@ body {
   justify-content: center;
   border-radius: 8px;
   padding: 8px 16px;
+  border: none;
 }
 
 .form-log-btn:hover {
@@ -78,3 +79,69 @@ body {
   height: 30px;
 }
 
+.change-color{
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 148px;
+  height: 40px;
+  background-color: #4E75FF;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.task-container{
+  display: flex;
+  gap: 20px;
+}
+
+.text-input{
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.destroy-button{
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 120px;
+  height: 40px;
+  background-color: #FF4E4E;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.create-button{
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 120px;
+  height: 40px;
+  background-color: #4E75FF;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+}
